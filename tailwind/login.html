@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex justify-between w-full h-screen items-center p-10 gap-4">
+    <div class="w-1/2">
+        <p class="font-bold text-4xl text-center py-10">FILUICK PAY</p>
+
+        <div class="border rounded-3xl w-full h-[600px] px-10 gap-2">
+            <p class="text-3xl font-bold text-center">Sign In</p> 
+            <h6 class="text-center">Welcome Back! Please enter your details</h6>
+
+            <div class="flex flex-col gap-2 ">
+                <label for="Username">Username</label>
+                <input type="text" id="Username" class="border"/>
+            </div>
+
+            <div class="flex flex-col gap-2 ">
+                <label for="password">password</label>
+                <input type="text" id="password" class="border"/>
+            </div>
+
+            <div class="flex justify-between gap-2" >
+                <div><input type="checkbox" name="Remember for 30 Days" id=""> Remember for 30 Days</div>
+                <p class="font-bold text-blue-500"> forgot password</p>
+            </div>
+
+            <button class=" w-full h-[40px] bg-blue-700  items-center px-24 py-50 rounded-3xl text-white">Sign In</button>
+            <p>OR</p>
+
+            <div class="flex justify-between gap-2">
+                <p>sign up with google</p>
+                <p>sign Up with Facebook</p>
+            </div>
+            <p class="text-center">Don't hsve on account? <b>Sign Up</b></p>
+        </div>
+    </div>
+    <div class="w-1/2 bg-blue-500 rounded-3xl h-screen flex items-center ">
+        <img src="undraw.png" alt="">
+    </div>
+  </div>
+</body>
+</html>
